@@ -1,0 +1,149 @@
+.mainContainer {
+  height: calc(100vh - 100px);
+  background-image: url("../Images/HomeBg.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainRoleText {
+  background-image: radial-gradient(
+    95.06% 1128.38% at 2.95% 45.52%,
+    #ffb800 0%,
+    #ffc081 29.69%,
+    #fabad7 65.1%,
+    #288aff 100%
+  );
+  background-clip: text;
+  color: transparent;
+
+  font-size: 200px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nameMyself {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -1.440000057220459px;
+}
+
+.keyroleContainer {
+  position: absolute;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 200px;
+}
+
+.keyLev1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 900px;
+}
+
+.type1TextLeft {
+  background-color: var(--brand);
+  transform: rotate(-35deg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 65.02px;
+  color: var(--primary);
+  padding: 8px 16px;
+
+  margin-top: -10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.type1TextLeft:hover {
+  background-color: var(--brand);
+  transform: rotate(20deg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 65.02px;
+  color: var(--primary);
+  padding: 8px 16px;
+
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+
+.keyLev2 {
+  display: flex;
+  gap: 700px;
+}
+
+.commonType2 {
+  box-shadow: -4px -4px 4px 0px #242424cc inset;
+  height: 40px;
+  background-color: var(--fourth);
+  padding: 0px 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: var(--border-radius);
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+.commonT2Lem {
+  margin-top: -20px;
+  transform: rotate(25deg);
+  transition: transform 0.3s ease;
+  margin-left: -30%;
+}
+.commonT2Lem:hover {
+  transform: rotate(-25deg);
+  margin-top: -20px;
+}
+.commonT3Lem {
+  margin-top: -20px;
+  transform: rotate(-25deg);
+  transition: transform 0.3s ease;
+}
+.commonT3Lem:hover {
+  transform: rotate(25deg);
+  margin-top: -20px;
+}
+.commonT4Lem {
+  margin-top: -20px;
+  transform: rotate(30deg);
+  transition: transform 0.3s ease;
+}
+.commonT4Lem:hover {
+  transform: rotate(-25deg);
+  margin-top: -20px;
+}

@@ -1,0 +1,106 @@
+.navContainer {
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  border-bottom: var(--border);
+}
+
+.desktopCOntainer {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftNavData {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: var(--font-16);
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navCont {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  height: 24px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+
+  padding: 6px;
+
+  font-size: var(--font-12);
+  font-weight: 400;
+  line-height: 25.92px;
+}
+
+.navNameText {
+  color: var(--brand);
+}
+
+.rolenavText {
+  color: var(--third);
+}
+
+.activeButton {
+  height: 70%;
+  width: 100%;
+  background-color: var(--brand);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+
+  color: var(--primary);
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.cvButton {
+  height: 70%;
+  width: 100%;
+  background-color: var(--fourth);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+
+  color: var(--secondary);
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navContT2 {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+  background-color: var(--fifth);
+  height: 24px;
+  padding: 5px 10px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+.navContT2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--brand);
+  cursor: pointer;
+}

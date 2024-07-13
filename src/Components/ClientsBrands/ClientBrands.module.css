@@ -1,0 +1,32 @@
+.clientContainer {
+  min-height: 250px;
+  background-color: var(--fourth);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.containerHeading {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -1.440000057220459px;
+  color: var(--secondary);
+}
+
+.contDesc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  color: var(--secondary);
+}
+
+.logoContainer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
