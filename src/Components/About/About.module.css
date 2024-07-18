@@ -1,0 +1,64 @@
+.aboutContainer {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  width: 70%;
+  margin: 32px auto;
+}
+
+.imageProfile {
+  height: 400px;
+  width: 400px;
+
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: rgb(0, 255, 234);
+}
+
+.aboutTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.topName {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 76.8px;
+}
+
+.nameBrand {
+  color: var(--brand);
+}
+
+.textAboutCont {
+  font-size: var(--font-18);
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.iconsContainer {
+  height: 50px;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  gap: 16px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+.iconsMainCont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  margin-top: 16px;
+}
+
+.iconText {
+  font-size: var(--font-14);
+  font-weight: 400;
+  line-height: 25.92px;
+}

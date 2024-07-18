@@ -1,0 +1,43 @@
+.expContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  width: 70%;
+  margin: auto;
+}
+
+.expHeader {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -1.440000057220459px;
+  color: var(--secondary);
+
+  text-align: center;
+}
+
+.expDetailsCont {
+  height: 300px;
+  background-color: var(--fourth);
+  border-radius: var(--border-radius);
+
+  padding: 32px 64px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftCont {
+  width: 40%;
+
+  border: var(--border);
+  border-radius: var(--border-radius);
+  height: 70%;
+  background-color: var(--primary);
+}
+
+.rightCont {
+  width: 45%;
+}

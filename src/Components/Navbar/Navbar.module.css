@@ -3,6 +3,8 @@
   height: 80px;
   position: fixed;
   border-bottom: var(--border);
+  background-color: var(--primary);
+  z-index: 1;
 }
 
 .desktopCOntainer {
