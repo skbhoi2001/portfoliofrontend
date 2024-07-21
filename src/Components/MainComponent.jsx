@@ -6,6 +6,8 @@ import About from "./About/About";
 import Approach from "./Approach/Approach";
 import Experienc from "./Experience/Experienc";
 import Project from "./Projects/Project";
+import Services from "./Services/Services";
+import Contact from "./Contact/Contact";
 
 const MainComponent = ({ data }) => {
   return (
@@ -18,6 +20,8 @@ const MainComponent = ({ data }) => {
         <Approach data={data} />
         <Experienc data={data} />
         <Project data={data} />
+        <Services data={data} />
+        <Contact data={data} />
       </div>
     </div>
   );

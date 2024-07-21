@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "./Approach.module.css";
+import gifImage from "./Defination.gif";
 
 const Approach = ({ data }) => {
   return (
@@ -14,7 +15,9 @@ const Approach = ({ data }) => {
           ))}
         </div>
       </div>
-      <div className={Styles.leftContainer}></div>
+      <div className={Styles.leftContainer}>
+        <img src={gifImage} alt="" style={{ height: "100%", width: "100%" }} />
+      </div>
     </div>
   );
 };

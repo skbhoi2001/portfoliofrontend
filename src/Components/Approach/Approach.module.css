@@ -41,5 +41,10 @@
 .leftContainer {
   width: 45%;
   height: 100%;
-  background-color: blue;
+
+  background-image: url("../Images/HomeBg.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 90%;
 }

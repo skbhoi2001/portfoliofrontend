@@ -1,0 +1,6 @@
+.contactContainer {
+  height: 350px;
+
+  margin-top: 64px;
+  border-top: var(--border);
+}
